@@ -213,7 +213,7 @@
         var_dump($new_user);
 
         // --------------fonction connect--------------
-        $connexion = $user->connect('Ivan', 'mdp');
+        $connexion = $user->connect('martin', 'moi');
         var_dump($connexion);
 
         // --------------fonction disconnect--------------
